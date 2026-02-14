@@ -17,6 +17,10 @@ const Header = () => {
       title: "S4",
       link: "/S4",
     },
+    {
+      title: "S5",
+      link: "/S5",
+    },
   ];
   return (
     <>
