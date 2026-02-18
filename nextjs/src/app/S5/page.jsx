@@ -9,6 +9,8 @@ const S5 = () => {
         <Link href={"/S5/entercepting"}>entercepting</Link>
         <br />
         <Link href={"/S5/paraller-routes"}>paraller Routes</Link>
+        <br />
+        <Link href={"/S5/Example"}>Example</Link>
       </div>
     </>
   );

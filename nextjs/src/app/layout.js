@@ -2,6 +2,7 @@ import "./globals.css";
 import Header from "../Components/S1/Header/Header";
 import "bootstrap/dist/css/bootstrap.min.css";
 import BootstrapImp from "@/Components/S2/BootstrapImp/BootstrapImp";
+import Backbtn from "@/Components/BackBtn/BackBtn";
 
 export const metadata = {
   title: {
@@ -16,6 +17,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <Header />
+        <Backbtn />
         {children}
         <BootstrapImp />
       </body>
