@@ -16,8 +16,6 @@ const getPosts = async () => {
   });
   if (response.ok) {
     return response.json();
-  } else {
-    throw new Error("Failed to fetch posts");
   }
 };
 const fetchServerComponent = async () => {

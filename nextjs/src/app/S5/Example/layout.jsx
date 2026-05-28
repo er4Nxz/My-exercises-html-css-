@@ -1,8 +1,8 @@
-const Layout = (prop) => {
+const Layout = ({children,Show}) => {
     return (
         <div className="min-h-screen bg-gray-100">
-            {prop.children}
-            {prop.Show}
+            {children}
+            {Show}
         </div>
     );
 }

@@ -62,7 +62,7 @@ const S1 = () => {
       </ul>
       <SearchParamButton />
       <div className="flex flex-row flex-wrap justify-center items-center">
-        <Posts />
+        {/* <Posts /> */}
       </div>
     </>
   );

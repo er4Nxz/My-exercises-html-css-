@@ -9,7 +9,7 @@ const NavLinks = ({ item }) => {
     <>
       <li>
         <Link
-          className={Check ? "text-blue-500" : "text-black"}
+          className={Check ? "text-blue-100" : "text-black"}
           href={item.link}
         >
           {item.title}

@@ -1,10 +1,5 @@
-import { Card, Button } from "react-bootstrap";
-
 const fetchPosts = async (id) => {
   let response = await fetch(`http://localhost:3001/posts/${id}`);
-  if (!response.ok) {
-    throw new Error(`Failed to fetch post: ${response.status}`);
-  }
   return response.json();
 };
 
