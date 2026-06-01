@@ -1,5 +1,6 @@
+
 import { FaRegTrashAlt } from "react-icons/fa";
-import type { TodoType } from "./Todo.Types";
+import type { TodoType } from "./Todo.types";
 
 type TodoItemProps = {
   item: TodoType;

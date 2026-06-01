@@ -155,6 +155,9 @@
 // console.log(erfan.age);
 // console.log(erfan.name);
 
+<<<<<<< HEAD
+
+=======
 // // generic type in class
 // class list<T> {
 //   public items: T[] = [];
@@ -178,3 +181,4 @@
 // newList.addItem("erfan");
 // newList.getter("ali")
 // newList.showItems();
+>>>>>>> 596e1c2e64c6fab50df280b7d7be8169b0a2ec05

@@ -10,6 +10,7 @@ import PropLimit from "./Components/PropLimit/PropLimit";
 import TemplateLiteral from "./Components/TemplateLiteral/TemplateLiteral";
 import TodoPlus from "./Components/TodoPlus/TodoPlus";
 import Shop from "./Components/Shop/Shop";
+
 const App: React.FC = () => {
   return (
     <>
@@ -19,6 +20,7 @@ const App: React.FC = () => {
       {/* <UseRef /> */}
       {/* <UseReducerr /> */}
       {/* <UseContextt /> */}
+      {/* <Auth /> */}
       {/* <Auth /> */}
       {/* <PropLimit /> */}
       {/* <TemplateLiteral /> */}

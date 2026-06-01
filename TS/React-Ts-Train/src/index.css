@@ -1,4 +1,5 @@
-/* body {
+/* 
+body {
   background-color: #6b22ff;
   font-family: sans-serif;
   min-height: 100vh;
@@ -6,7 +7,6 @@
   align-items: center;
   justify-content: center;
 } */
-
 /* جعبه مرکزی */
 .container {
   display: flex;

@@ -12,6 +12,7 @@ const UseStatee: React.FC = (): React.ReactNode => {
     { id: 2, name: "ali", email: "ali@gmail.com" },
   ];
   const [user, setUser] = useState<User[]>([]);
+  setUser(Users );
   setUser(Users);
   return (
     <>
