@@ -1,10 +1,11 @@
-
 const S1template = ({ children }) => {
-  
   return (
     <>
-      <h1>Template</h1>
-      <input type="text" className="bg-white " />
+      <input
+        type="text"
+        className="bg-white block mt-3"
+        placeholder="Template"
+      />
       {children}
     </>
   );
