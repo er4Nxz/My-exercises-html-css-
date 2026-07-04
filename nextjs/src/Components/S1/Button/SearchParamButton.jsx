@@ -3,7 +3,7 @@ import { useRouter, useSearchParams } from "next/navigation";
 
 const SearchParamButton = () => {
   const router = useRouter();
-  const SearchParam = useSearchParams();
+  const SearchParam = useSearchParams(); 
 
   const name = SearchParam.get("name");
   const family = SearchParam.get("family");

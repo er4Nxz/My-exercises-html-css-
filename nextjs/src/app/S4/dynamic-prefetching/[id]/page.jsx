@@ -1,21 +1,22 @@
-const fetchPosts = async (id) => {
+let fetchParams = async (id) => {
   let response = await fetch(`http://localhost:3001/posts/${id}`);
   return response.json();
 };
 
-const generateStaticParams = async () => {
+let generateStaticParams = async () => {
   let response = await fetch("http://localhost:3001/posts");
-  const posts = await response.json();
+  let data = await response.json();
 
-  return posts.map((item) => {
+  return data.map((item) => {
     return { id: item.id.toString() };
   });
 };
+
 generateStaticParams();
 
-const ParamId = async ({ params }) => {
-  const { id } = await params;
-  const posts = await fetchPosts(id);
+const dynamicPrefetching = async ({ params }) => {
+  let { id } = await params;
+  let posts = await fetchParams(id);
   return (
     <div>
       <h1>{posts.title}</h1>
@@ -23,4 +24,4 @@ const ParamId = async ({ params }) => {
   );
 };
 
-export default ParamId;
+export default dynamicPrefetching;

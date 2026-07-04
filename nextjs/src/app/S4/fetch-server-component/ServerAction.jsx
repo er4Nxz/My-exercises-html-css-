@@ -15,7 +15,7 @@ const ServerAction = () => {
           <label htmlFor="title">title:</label>
           <input
             type="text"
-            name="title"
+            name="title" 
             id="title"
             className="bg-white border rounded-2xl mx-2"
           />

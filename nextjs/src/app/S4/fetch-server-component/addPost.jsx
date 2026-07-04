@@ -1,7 +1,7 @@
 "use server";
 import { revalidatePath } from "next/cache";
 
-export default async function addPost(_, formData) {
+export default async function addPost( _, formData) {
   const title = formData.get("title");
   await fetch("http://localhost:3001/posts", {
     method: "POST",
