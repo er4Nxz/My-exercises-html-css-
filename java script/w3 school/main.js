@@ -91,7 +91,7 @@
 
 //// متود concat برای اضافه کردن ارایه به یک ارایه دیگر
 // let a = ["erfan"]
-// let b = ["sadaf"]
+// let b = ["ali"]
 // let c = a.concat(b)
 // console.log(c);
 
@@ -221,7 +221,7 @@
 
 //// replace method
 // let x = "erfan ahmadi is the best"
-// let n = x.replace(/erfan/m,"sadaf")
+// let n = x.replace(/erfan/m,"ali")
 // console.log(n);
 
 //// test method

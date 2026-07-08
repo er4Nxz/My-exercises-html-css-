@@ -78,7 +78,7 @@
 //         return " erfan ahmadi "
 //     }
 //     let y=()=>{
-//         return " sadaf ahmadi "
+//         return " ali ahmadi "
 //     }
 //     let z=()=>{
 //         return " our childe "
@@ -94,7 +94,7 @@
 //     return "erfan ahmadi";
 //   };
 //   let y = (): string => {
-//     return "sadaf ahmadi";
+//     return "ali ahmadi";
 //   };
 //   return [x(), y()];
 // };
@@ -165,7 +165,7 @@
 //     true,
 // ]
 // console.log(data);
-// data.push("sadaf")
+// data.push("ali")
 // data.push("17")
 // console.log(data);
 // data.pop()
@@ -197,40 +197,40 @@
 // })
 // console.log(data2);
 // find
-// let data: string[] = ["erfan", "ahmadi","zrynab","sadaf"];
+// let data: string[] = ["erfan", "ahmadi","zrynab","ali"];
 // let result:string | undefined=data.find((item)=>{
 //     return item==="erfan "
 // })
 // console.log(result);
 //findindex
-// let data: string[] = ["erfan", "ahmadi","zrynab","sadaf"];
+// let data: string[] = ["erfan", "ahmadi","zrynab","ali"];
 // let result:number | undefined=data.findIndex((item)=>{
 //     return item==="erfan"
 // })
 // console.log(result);
 //index of / last index of
-// let data: string[] = ["erfan", "ahmadi","zrynab","sadaf","erfan"];
+// let data: string[] = ["erfan", "ahmadi","zrynab","ali","erfan"];
 // // let result:number | undefined=data.indexOf("erfan",1)
 // let result:number | undefined=data.lastIndexOf("erfan",1)
 // console.log(result);
 //include => search
-// let data: string[] = ["erfan", "ahmadi","zrynab","sadaf","erfan"];
+// let data: string[] = ["erfan", "ahmadi","zrynab","ali","erfan"];
 // let result:boolean | undefined=data.includes("erfan",1)
 // console.log(result);
 //slice
-// let data: string[] = ["erfan", "ahmadi","zrynab","sadaf","erfan"];
+// let data: string[] = ["erfan", "ahmadi","zrynab","ali","erfan"];
 // let result:(string | undefined)[]=data.slice(3,5)
 // console.log(result);
 //splice
-// let data: string[] = ["erfan", "ahmadi","zrynab","sadaf"]
+// let data: string[] = ["erfan", "ahmadi","zrynab","ali"]
 // let result :string[]=data.splice(1,1)
 // console.log(data);
 // console.log(result);
 //at
-// let data: string[] = ["erfan", "ahmadi","zrynab","sadaf"]
+// let data: string[] = ["erfan", "ahmadi","zrynab","ali"]
 // console.log(data.at(3));
 //flat
-// let data: string[] = ["erfan", "ahmadi", "zrynab", "sadaf", ["hassan","rostam","mansore"]];
+// let data: string[] = ["erfan", "ahmadi", "zrynab", "ali", ["hassan","zahra","parniyan"]];
 // console.log(data);
 // console.log(data.flat());
 //flatmap
@@ -238,8 +238,8 @@
 //   "erfan",
 //   "ahmadi",
 //   "zrynab",
-//   "sadaf",
-//   ["hassan", "rostam", "mansore"],
+//   "ali",
+//   ["hassan", "zahra", "parniyan"],
 // ];
 // let result: string[] = data.flatMap((item) => {
 //   return item;
@@ -317,26 +317,26 @@
 // console.log(person.degree.master);
 // console.log(person.degree.phd);
 //shalo copy
-// let data:(string|number)[]=["erfan","sadaf",18,17]
+// let data:(string|number)[]=["erfan","ali",18,17]
 // let result = data
 // console.log(result)
 // result.push("ahmadi")
 // console.log(result);
 // console.log(data);
 //deepcopy (ecma) (spread)
-// let data:(string|number)[]=["erfan","sadaf",18,17]
+// let data:(string|number)[]=["erfan","ali",18,17]
 // let result = [...data]
 // result.push("ahamdi")
 // console.log(data);
 // console.log(result);
 //deepcopy (array)
-// let data:(string|number)[]=["erfan","sadaf",18,17]
+// let data:(string|number)[]=["erfan","ali",18,17]
 // let result = Array.from(data)
 // result.push("ahamdi")
 // console.log(data);
 // console.log(result);
 //deepcopy (.map)
-// let data:(string|number)[]=["erfan","sadaf",18,17]
+// let data:(string|number)[]=["erfan","ali",18,17]
 // let result = data.map(item=>item)
 // result.push("ahamdi")
 // console.log(data);
