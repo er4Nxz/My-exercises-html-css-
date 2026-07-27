@@ -3,7 +3,7 @@ import { FaEye } from "react-icons/fa";
 import { FaEyeSlash } from "react-icons/fa";
 
 const ArrayUseState = () => {
-  const [person, setPerson] = useState(["Erfan Ahmadi", "Sadaf Yosefi"]);
+  const [person, setPerson] = useState(["Erfan Ahmadi", "ali Yosefi"]);
   const [name, setName] = useState("");
   const addToPerson = () => {
     setPerson([...person, name]);
@@ -60,7 +60,7 @@ const ArrayUseState = () => {
             color="white"
             className="cursor-pointer  p-1 w-[30px] transition-all ease-linear h-[30px] hover:bg-white/30 hover:rounded-4xl active:bg-white/70"
             onClick={() => {
-              setIcon(false), setType("text");
+              (setIcon(false), setType("text"));
             }}
           />
         ) : (
@@ -69,7 +69,7 @@ const ArrayUseState = () => {
             color="white"
             className="cursor-pointer  p-1 w-[30px] transition-all ease-linear h-[30px] hover:bg-white/30 hover:rounded-4xl active:bg-white/70"
             onClick={() => {
-              setIcon(true), setType("password");
+              (setIcon(true), setType("password"));
             }}
           />
         )}

@@ -71,7 +71,7 @@
 //   }
 // }
 // const newPerson = new Person("erfan", "e@e.com", 18);
-// newPerson.name = "sadaf";
+// newPerson.name = "ali";
 // newPerson.email = "s@s.com"; // ERROR
 // newPerson.lessons; // ERROR => lessons is not find because private access
 // newPerson.age  // ERROR => age is not find because access only in class
