@@ -24,7 +24,7 @@ const S_6 = () => {
   // const fullName = "erfan ahmadi"
   // const age = 25
   // const email = "e@gmail.com"
-  // const partner = "sadaf"
+  // const partner = "ali"
   return (
     <>
       {/* <MyContext.Provider value={{ fullName, age, email, partner }}>
